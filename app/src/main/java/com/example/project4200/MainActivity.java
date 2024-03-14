@@ -1,11 +1,12 @@
 package com.example.project4200;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.Button;
 
 import androidx.activity.ComponentActivity;
 
 
-public class MainActivity extends ComponentActivity{
+public class MainActivity extends ComponentActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -13,9 +14,12 @@ public class MainActivity extends ComponentActivity{
         setContentView(R.layout.activity_main);
 
         //get login button
-        Button loginButton = (Button) findViewById(R.id.loginButton);
+        Button loginButton = findViewById(R.id.loginButton);
+        //change page when button clicked
+        loginButton.setOnClickListener(view -> setContentView(R.layout.signin));
 
         //get signup button
         Button signupButton = (Button) findViewById(R.id.signupButton);
     }
+
 }
