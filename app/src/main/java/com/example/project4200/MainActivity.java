@@ -20,6 +20,8 @@ public class MainActivity extends ComponentActivity {
 
         //get signup button
         Button signupButton = (Button) findViewById(R.id.signupButton);
+        //change page when button clicked
+        signupButton.setOnClickListener(view -> setContentView(R.layout.signup));
     }
 
 }
