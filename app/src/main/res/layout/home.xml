@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_horizontal"
+    android:gravity="center_vertical"
+    android:layout_marginTop="20dp"
+    android:layout_marginBottom="20dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="uWindsor Parking"
+            android:textSize="40dp"
+            android:fontFamily="sans-serif-black"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:layout_marginBottom="40dp"
+            android:gravity="center"/>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="40dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:layout_marginBottom="40dp">
+
+                    <TextView
+                        android:id="@+id/blotA"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="BRIDGE LOT A"
+                        android:textSize="20dp"
+                        android:fontFamily="sans-serif-black"/>
+
+                    <TextView
+                        android:id="@+id/blotAaddress"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="2858 Peter St"
+                        android:textSize="15dp"
+                        android:fontFamily="sans-serif-medium"
+                        android:layout_marginBottom="3dp"/>
+
+                    <ImageView
+                        android:id="@+id/imageblotA"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/bridgea"
+                        android:scaleType="fitCenter"
+                        android:adjustViewBounds="true"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:layout_marginBottom="40dp">
+
+                    <TextView
+                        android:id="@+id/blotb"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="BRIDGE LOT B"
+                        android:textSize="20dp"
+                        android:fontFamily="sans-serif-black" />
+
+                    <TextView
+                        android:id="@+id/blotBaddress"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="2858 Peter St"
+                        android:textSize="15dp"
+                        android:fontFamily="sans-serif-medium"
+                        android:layout_marginBottom="3dp"/>
+
+                    <ImageView
+                        android:id="@+id/imageblotb"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/bridgeb"
+                        android:scaleType="fitCenter"
+                        android:adjustViewBounds="true" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:layout_marginBottom="40dp">
+
+                    <TextView
+                        android:id="@+id/blotc"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="BRIDGE LOT C"
+                        android:textSize="20dp"
+                        android:fontFamily="sans-serif-black" />
+
+                    <TextView
+                        android:id="@+id/blotCaddress"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="2856 Donnelly St"
+                        android:textSize="15dp"
+                        android:fontFamily="sans-serif-medium"
+                        android:layout_marginBottom="3dp"/>
+
+                    <ImageView
+                        android:id="@+id/imageblotc"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/bridgec"
+                        android:scaleType="fitCenter"
+                        android:adjustViewBounds="true" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:layout_marginBottom="40dp">
+
+                    <TextView
+                        android:id="@+id/blotcampa"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="CAMPUS BRIDGE A"
+                        android:textSize="20dp"
+                        android:fontFamily="sans-serif-black" />
+
+                    <TextView
+                        android:id="@+id/blotcampAaddress"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Wyandotte St W | Essex Hall"
+                        android:textSize="15dp"
+                        android:fontFamily="sans-serif-medium"
+                        android:layout_marginBottom="3dp"/>
+
+                    <ImageView
+                        android:id="@+id/imageblotcampa"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/bridgeawyandotte"
+                        android:scaleType="fitCenter"
+                        android:adjustViewBounds="true" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:layout_marginBottom="40dp">
+
+                    <TextView
+                        android:id="@+id/musiclot"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="MUSIC"
+                        android:textSize="20dp"
+                        android:fontFamily="sans-serif-black" />
+
+                    <TextView
+                        android:id="@+id/musiclotAddress"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="729 Sunset Ave"
+                        android:textSize="15dp"
+                        android:fontFamily="sans-serif-medium"
+                        android:layout_marginBottom="3dp"/>
+
+                    <ImageView
+                        android:id="@+id/imagemusiclot"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/music"
+                        android:scaleType="fitCenter"
+                        android:adjustViewBounds="true" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:layout_marginBottom="40dp">
+
+                    <TextView
+                        android:id="@+id/parkinggarage"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="PARKING GARAGE"
+                        android:textSize="20dp"
+                        android:fontFamily="sans-serif-black" />
+
+                    <TextView
+                        android:id="@+id/parkinggarageAddress"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="691 California Ave"
+                        android:textSize="15dp"
+                        android:fontFamily="sans-serif-medium"
+                        android:layout_marginBottom="3dp"/>
+
+                    <ImageView
+                        android:id="@+id/imageparkinggarage"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/garage"
+                        android:scaleType="fitCenter"
+                        android:adjustViewBounds="true" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </ScrollView>
+
+    </LinearLayout>
+
+</LinearLayout>
