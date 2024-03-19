@@ -17,7 +17,7 @@ public class MainActivity extends ComponentActivity {
         //get login button
         Button loginButton = findViewById(R.id.loginButton);
         //change page when button clicked
-        loginButton.setOnClickListener(view -> setContentView(R.layout.signin));
+        loginButton.setOnClickListener(view -> startActivity(new Intent(MainActivity.this, LoginActivity.class)));
 
         //get signup button
         Button signupButton = (Button) findViewById(R.id.signupButton);

@@ -2,6 +2,7 @@ package com.example.project4200;
 
 import android.content.ContentValues;
 import android.content.Context;
+import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 
@@ -51,6 +52,20 @@ public class DBHandler extends SQLiteOpenHelper {
         db.insert(TABLE_NAME, null, values);
 
         db.close();
+    }
+
+    public boolean validateUser(String emailStr, String passwordStr) {
+        SQLiteDatabase db = this.getWritableDatabase();
+
+        String[] args = {emailStr, passwordStr};
+        Cursor cursor = db.query(TABLE_NAME, new String[]{"email", "password"}, "email=? AND password=?", args, null, null, null);
+
+        boolean check;
+
+        check = cursor.moveToNext();
+
+        cursor.close();
+        return check;
     }
 
     public void onUpgrade(SQLiteDatabase db, int oldVersion, int newVersion) {

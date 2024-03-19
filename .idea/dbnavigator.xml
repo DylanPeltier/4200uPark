@@ -31,17 +31,16 @@ from
     <last-used-providers />
   </component>
   <component name="DBNavigator.Project.DatabaseFileManager">
-    <open-files />
+    <open-files>
+      <object connection-id="aecbbfee-6c46-4d16-bdf6-9b4be7a43dcd" object-ref="schemas/main/tables/users" />
+    </open-files>
   </component>
   <component name="DBNavigator.Project.DatabaseSessionManager">
     <connection id="aecbbfee-6c46-4d16-bdf6-9b4be7a43dcd" />
   </component>
   <component name="DBNavigator.Project.DatasetFilterManager">
-    <filter-actions connection-id="aecbbfee-6c46-4d16-bdf6-9b4be7a43dcd" dataset="main.users" active-filter-id="b9ba32fa-14ed-4ddc-b4c2-767040dcbaec">
-      <filter id="b9ba32fa-14ed-4ddc-b4c2-767040dcbaec" name="Filter 1" temporary="false" custom-name="false" type="basic" join-type="AND">
-        <condition column="id" operator="=" value="" active="true" />
-      </filter>
-    </filter-actions>
+    <filter-actions connection-id="aecbbfee-6c46-4d16-bdf6-9b4be7a43dcd" dataset="main.users" active-filter-id="EMPTY_FILTER" />
+    <filter-actions connection-id="aecbbfee-6c46-4d16-bdf6-9b4be7a43dcd" dataset="main.sqlite_sequence" active-filter-id="" />
   </component>
   <component name="DBNavigator.Project.ObjectQuickFilterManager">
     <last-used-operator value="EQUAL" />
