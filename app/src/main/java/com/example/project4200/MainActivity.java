@@ -1,4 +1,5 @@
 package com.example.project4200;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -21,7 +22,7 @@ public class MainActivity extends ComponentActivity {
         //get signup button
         Button signupButton = (Button) findViewById(R.id.signupButton);
         //change page when button clicked
-        signupButton.setOnClickListener(view -> setContentView(R.layout.signup));
+        signupButton.setOnClickListener(view -> startActivity(new Intent(MainActivity.this, SignupActivity.class)));
     }
 
 }
